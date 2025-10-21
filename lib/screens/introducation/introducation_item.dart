@@ -22,7 +22,7 @@ class IntroducationItem extends StatelessWidget {
                 color: AppColor.maincolor,
                 fontFamily: "Janna"
             ),),
-          SizedBox(height: size.height*0.05,),
+          SizedBox(height: size.height*0.005,),
           Text(introducationModel.hintText??"",
             textAlign: TextAlign.center,
             style: TextStyle(
